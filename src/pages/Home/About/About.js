@@ -1,6 +1,8 @@
 import './About.scss';
 import Shark1Image from '../../../assets/images/shark1.png';
 import Shark2Image from '../../../assets/images/shark2.png';
+import Clue1Image from '../../../assets/images/clue1.png';
+import NewImage from '../../../assets/images/new.png';
 
 const About = () => {
     return (
@@ -17,7 +19,12 @@ const About = () => {
                         </div>
                     </div>
                     <div className="about-card-image">
-                        <img src={Shark1Image} />
+                        <div className="about-card-image-shark">
+                            <img src={Shark1Image} />
+                            <div className="about-card-new-image">
+                                <img src={NewImage} />
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div className="about-card">
@@ -39,6 +46,9 @@ const About = () => {
                         <div className="about-card-content-control  ">
                             <div className="about-card-content-button">
                                 Get on the list
+                            </div>
+                            <div className="about-card-content-clue1">
+                                <img src={Clue1Image} />
                             </div>
                         </div>
                     </div>

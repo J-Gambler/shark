@@ -1,5 +1,8 @@
 import './Roadmap.scss';
 import ClueImage from '../../../assets/images/clue.png';
+import RoadmapImage from '../../../assets/images/roadmap.png';
+import CircleImage from '../../../assets/images/circle.png';
+
 const roadmap = [
     {
         title: 'Wave1',
@@ -31,14 +34,27 @@ const Roadmap = () => {
     return (
         <div className="roadmap">
             <div className="roadmap-title-back">Nft</div>
-            <div className="roadmap-title">Roadmap</div>
+            <div className="roadmap-header">
+                <div className="roadmap-title">Roadmap</div>
+                <div className="roadmap-header-image">
+                    <img src={RoadmapImage} />
+                </div>
+            </div>
             <div className="roadmap-container">
                 {roadmap.map( (ele, key) => 
-                    <div className="roadmap-item" key={key}>
+                <div className="roadmap-row" key={key}>
+                    <div className="roadmap-item">
+                        <div className="roadmap-item-circle">
+                            <img src={CircleImage} />
+                        </div>
+                        <div className="roadmap-item-line"></div>
                         <div className="roadmap-item-title">{ele.title}</div>
-                        <img src={ClueImage} />
+                        <div className="roadmap-item-image">
+                            <img src={ClueImage} />
+                        </div>
                         <div className="roadmap-item-content">{ele.content}</div>
                     </div>
+                </div>
                 )}
             </div>
         </div>

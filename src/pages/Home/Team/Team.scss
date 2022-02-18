@@ -1,5 +1,8 @@
 .team {
     text-transform: uppercase;
+    background-image: url('../../../assets/images/team-back.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 
     .team-header {
         text-align: center;
@@ -10,7 +13,7 @@
             font-weight: bold;
             font-size: 24px;
             line-height: 28px;
-            padding-bottom: 16px;
+            padding-bottom: 32px;
             /* identical to box height */
             
             

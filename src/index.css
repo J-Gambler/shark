@@ -3,6 +3,11 @@
   src: url('./assets/fonts/Horizon.otf') format("truetype");
 }
 
+@font-face {
+  font-family: 'Glacial Indifference';
+  src: url('./assets/fonts/GlacialIndifference-Regular.otf');
+}
+
 body {
   margin: 0;
   -webkit-font-smoothing: antialiased;

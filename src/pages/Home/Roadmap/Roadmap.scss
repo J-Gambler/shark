@@ -1,33 +1,89 @@
 .roadmap {
     color: #FFFFFF;
-    padding-top: 40px;
+    padding-top: 80px;
 
     .roadmap-title-back {
         font-weight: bold;
         font-size: 144px;
         line-height: 166px;
+        color: transparent;
+        -webkit-text-stroke: 1px white;
+        position: relative;
+        left: -40px;
     }
 
-    .roadmap-title {
-        font-weight: bold;
-        font-size: 48px;
-        line-height: 55px;
-        text-align: center;
-        
-        color: #38B6FF;
+    .roadmap-header {
+        .roadmap-title {
+            font-weight: bold;
+            font-size: 48px;
+            line-height: 55px;
+            text-align: center;
+            
+            color: #38B6FF;
+        }
+
+        .roadmap-header-image {
+            padding-top: 16px;
+            text-align: center;
+        }
     }
 
     .roadmap-container {
-        .roadmap-item {
-            .roadmap-item-title {
-                font-weight: bold;
-                font-size: 24px;
-                line-height: 28px;
-            }
+        padding-top: 132px;
 
-            .roadmap-item-content {
-                font-size: 24px;
-                line-height: 29px;
+        .roadmap-row {
+            justify-content: end;
+            display: flex;
+            flex-wrap: wrap;
+
+            .roadmap-item {
+                padding-bottom: 96px;
+                position: relative;
+                width: 50%;
+                display: inline-block;
+                text-align: left;
+
+                .roadmap-item-circle {
+                    position: absolute;
+                    left: -200px;
+                }
+
+                .roadmap-item-line {
+                    position: absolute;
+                    left: -174px;
+                    z-index: -1;
+                    top: 30px;
+                    width: 7px;
+                    height: 100%;
+                    background-color: #D9D9D9;
+                }
+
+                .roadmap-item-title {
+                    font-weight: bold;
+                    font-size: 24px;
+                    line-height: 28px;
+                }
+
+                .roadmap-item-image {
+                    padding: 36px 0px;
+                }
+
+                .roadmap-item-content {
+                    font-family: 'Glacial Indifference';
+                    font-size: 24px;
+                    line-height: 29px;
+                    color: #FFFFFF;
+                    padding-right: 348px;
+                }
+            }
+        }
+
+        .roadmap-row:last-of-type {
+            .roadmap-item {
+                .roadmap-item-line {
+                    width: 0px;
+
+                }
             }
         }
     }

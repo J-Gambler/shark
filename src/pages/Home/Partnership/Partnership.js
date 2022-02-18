@@ -1,4 +1,5 @@
 import './Partnership.scss';
+import ClueImage from '../../../assets/images/clue.png';
 
 const images = require.context('../../../assets/images/partnership', true);
 const imageCount = 12;
@@ -24,6 +25,10 @@ const Partnership = () => {
                 </div>
                 )}
             </div>
+            <div className="partnership-image">
+                <img src={ClueImage} />
+            </div>
+            <div className="partnership-title-back-bottom">Crypto</div>
         </div>
     );
 }

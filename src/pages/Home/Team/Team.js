@@ -26,12 +26,12 @@ const Team = () => {
             <div className="team-header">
                 <div className="team-header-label">Our team</div>
                 <div className="team-header-title">Behind the 
-                    <span className="team-header-highlight">sharks</span>
+                    <span className="team-header-highlight"> sharks</span>
                 </div>
             </div>
             <div className="team-container">
                 {team.map( (ele, key) => 
-                <div className="team-card">
+                <div className="team-card" key={key}>
                     <div className="team-card-avatar">
                         <img src={ele.image} />
                     </div>

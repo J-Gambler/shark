@@ -8,6 +8,10 @@
         text-align: right;
         padding-bottom: 50px;
         padding-top: 144px;
+        color: transparent;
+        -webkit-text-stroke: 1px white;
+        position: relative;
+        right: -200px;
     }
 
     .partnership-header {
@@ -24,6 +28,7 @@
         }
 
         .partnership-header-label {
+            font-family: 'Glacial Indifference';
             font-size: 24px;
             line-height: 29px;
             padding-bottom: 96px;
@@ -40,5 +45,22 @@
         .partnership-item {
 
         }
+    }
+
+    .partnership-image {
+        text-align: center;
+        padding-top: 128px;
+        padding-bottom: 180px;
+    }
+
+    .partnership-title-back-bottom {
+        font-weight: bold;
+        font-size: 144px;
+        line-height: 166px;
+        color: transparent;
+        -webkit-text-stroke: 1px white;
+        padding-bottom: 96px;
+        position: relative;
+        left: -60px;
     }
 }
