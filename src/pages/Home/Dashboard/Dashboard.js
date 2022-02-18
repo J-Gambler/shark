@@ -25,8 +25,8 @@ const Dashboard = () => {
                         <img src={ClueImage} />
                     </div>
                     <div className="dashboard-mint-control">
-                        <div className="dashboard-mint-button">36 Days 11Hrs 28Min</div>
-                        <div className="dashboard-mint-caption">Minting Soon</div>
+                        <div className="dashboard-mint-button">Minting Soon</div>
+                        <div className="dashboard-mint-caption">9 Days 17Hrs 55Min</div>
                     </div>
                 </div>
                 <div className="dashboard-title-back-bottom">Shark</div>

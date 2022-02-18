@@ -58,7 +58,7 @@ const Roadmap = () => {
                     <div className="roadmap-row" key={key}>
                         <div className="roadmap-item">
                             <div className="roadmap-item-circle">
-                                <img src={CircleImage} />
+                                {/* <img src={CircleImage} /> */}
                             </div>
                             <div className="roadmap-item-line"></div>
                             <div className="roadmap-item-title">{ele.title}</div>

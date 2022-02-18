@@ -35,6 +35,10 @@
                 display: flex;
                 gap: 54px;
                 padding-top: 60px;
+
+                .footer-content-socials-link {
+                    cursor: pointer;
+                }
             }
         }
     }

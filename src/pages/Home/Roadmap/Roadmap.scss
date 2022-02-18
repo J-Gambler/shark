@@ -70,7 +70,11 @@
 
                     .roadmap-item-circle {
                         position: absolute;
-                        left: -200px;
+                        width: 30px;
+                        height: 30px;
+                        background-color: #bbb;
+                        border-radius: 50%;
+                        left: -185px;
                     }
 
                     .roadmap-item-line {
@@ -139,7 +143,7 @@
                 .roadmap-row {
                     .roadmap-item {
                         .roadmap-item-circle {
-                            left: -14vw;
+                            left: calc(-12vw - 12px);
                         }
     
                         .roadmap-item-line {
@@ -175,7 +179,7 @@
                         width: 100%;
 
                         .roadmap-item-circle {
-                            left: calc(-26px + 5vw);
+                            left: calc(-12px + 5vw);
                         }
     
                         .roadmap-item-content {

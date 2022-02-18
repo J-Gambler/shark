@@ -1,5 +1,5 @@
 import './About.scss';
-import Shark1Image from '../../../assets/images/shark1.png';
+import Shark1Image from '../../../assets/images/giphy.webp';
 import Shark2Image from '../../../assets/images/shark2.png';
 import Clue1Image from '../../../assets/images/clue1.png';
 import NewImage from '../../../assets/images/new.png';
@@ -24,9 +24,9 @@ const About = () => {
                         <div className="about-card-image">
                             <div className="about-card-image-shark">
                                 <img src={Shark1Image} />
-                                <div className="about-card-new-image">
+                                {/* <div className="about-card-new-image">
                                     <img src={NewImage} />
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>

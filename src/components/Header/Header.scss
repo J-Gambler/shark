@@ -10,8 +10,6 @@
         align-items: center;
         padding: 72px 100px;
         padding-bottom: 0px;
-        overflow: hidden;
-
         .logo {
             width: 200px;
 
@@ -32,7 +30,12 @@
                 font-size: 24px;
                 line-height: 28px;
                 text-transform: uppercase;
+                cursor: pointer;
             }
+        }
+
+        .collapse-links {
+            display: none;
         }
     }
 }
@@ -57,12 +60,50 @@
 
 @media (max-width: 991px) {
     .navbar {
+        // background-color: #07062B;
         .navbar-container {
             padding: 72px 5vw;
             padding-bottom: 0;
+            z-index: 1;
     
+            .logo {
+                z-index: 2;
+            }
             .links {
                 display: none;
+            }
+
+            .collapse-links {
+                display: block;
+
+                .collapse-menus {
+                    display: none;
+                }
+            }
+
+            .collapse-links:hover {
+                .collapse-menus {
+                    padding-top: 40px;
+                    padding-bottom: 40px;
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    color: white;
+                    left: 0;
+                    position: absolute;
+                    gap: 40px;
+                    background-color: #07062B;
+
+                    .nav-link {
+                        // color: #D9D9D9;
+                        color: rgba(217, 217, 217, 0.6);
+                        text-align: center;
+                        font-weight: bold;
+                        font-size: 24px;
+                        line-height: 28px;
+                        text-transform: uppercase;
+                    }
+                }
             }
         }
     }

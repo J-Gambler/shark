@@ -94,6 +94,9 @@
                     .about-card-image-shark {
                         display: inline-block;
                         position: relative;
+                        img {
+                            border-radius: 20px;    
+                        }
                         
                         .about-card-new-image {
                             right: -32px;

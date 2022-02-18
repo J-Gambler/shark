@@ -1,5 +1,6 @@
 import './Header.scss'
 import LogoImage from '../../assets/images/logo.png';
+import TogglerImage from '../../assets/images/toggler.png';
 
 const Header = () => {
     return (
@@ -14,6 +15,18 @@ const Header = () => {
                     <div className="nav-link">Roadmap</div>
                     <div className="nav-link">Partners</div>
                     <div className="nav-link">Team</div>
+                </div>
+                <div className="collapse-links">
+                    <div className="collapse-link-icon">
+                        <img src={TogglerImage} />
+                    </div>
+                    <div className="collapse-menus">
+                        <div className="nav-link">Home</div>
+                        <div className="nav-link">Perks</div>
+                        <div className="nav-link">Roadmap</div>
+                        <div className="nav-link">Partners</div>
+                        <div className="nav-link">Team</div>
+                    </div>
                 </div>
             </div>
         </div>   
