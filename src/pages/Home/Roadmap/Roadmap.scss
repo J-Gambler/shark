@@ -1,6 +1,26 @@
 .roadmap {
     color: #FFFFFF;
     padding-top: 80px;
+    position: relative;
+    overflow: hidden;
+
+    .roadmap-back2 {
+        position: absolute;
+        // left: -140px;
+        top: 500px;
+    }
+
+    .roadmap-back3 {
+        position: absolute;
+        left: 192px;
+        bottom: 42px;
+    }
+
+    .roadmap-leaf {
+        position: absolute;
+        top: calc(50%);
+        right: 200px;
+    } 
 
     .roadmap-title-back {
         font-weight: bold;

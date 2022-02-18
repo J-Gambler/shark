@@ -4,6 +4,7 @@ import MemebershipImage from '../../../assets/images/membership.png';
 import P2eImage from '../../../assets/images/p2e.png';
 import ClueImage from '../../../assets/images/clue.png';
 import LightImage from '../../../assets/images/light.png';
+import Back1Image from '../../../assets/images/back1.png';
 
 const perks = [
     {
@@ -35,6 +36,9 @@ const Perks = () => {
                 <div className="perks-header-light">
                     <img src={LightImage} />
                 </div>
+            </div>
+            <div className="perks-back1">
+                <img src={Back1Image} />
             </div>
             <div className="perks-container">
                 {perks.map( (ele, key) =>

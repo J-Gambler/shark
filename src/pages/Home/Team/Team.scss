@@ -3,6 +3,20 @@
     background-image: url('../../../assets/images/team-back.png');
     background-size: 100% 100%;
     background-repeat: no-repeat;
+    overflow: hidden;
+    position: relative;
+
+    .team-leaf-bottom {
+        position: absolute;
+        bottom: 448px;
+        right: 144px;
+    }
+
+    .team-leaf-top {
+        position: absolute;
+        top: 448px;
+        left: 144px;
+    }
 
     .team-header {
         text-align: center;

@@ -2,6 +2,9 @@ import './Roadmap.scss';
 import ClueImage from '../../../assets/images/clue.png';
 import RoadmapImage from '../../../assets/images/roadmap.png';
 import CircleImage from '../../../assets/images/circle.png';
+import Back2Image from '../../../assets/images/back2.png';
+import Back3Image from '../../../assets/images/back3.png';
+import LeafImage from '../../../assets/images/leaf.png';
 
 const roadmap = [
     {
@@ -39,6 +42,15 @@ const Roadmap = () => {
                 <div className="roadmap-header-image">
                     <img src={RoadmapImage} />
                 </div>
+            </div>
+            <div className="roadmap-back2">
+                <img src={Back2Image} />
+            </div>
+            <div className="roadmap-back3">
+                <img src={Back3Image} />
+            </div>
+            <div className="roadmap-leaf">
+                <img src={LeafImage} />
             </div>
             <div className="roadmap-container">
                 {roadmap.map( (ele, key) => 

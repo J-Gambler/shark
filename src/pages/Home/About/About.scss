@@ -1,5 +1,6 @@
 .about {
     padding-top: 112px;
+    overflow: hidden;
 
     .about-title-back {
         font-weight: bold;
@@ -19,8 +20,24 @@
         padding-left: 120px;
         padding-right: 120px;
         gap: 70px;
-        
+        position: relative;
+
+        .about-card-circle-back {
+            position: absolute;
+            z-index: 1;
+            left: 0;
+            top: 400px;
+        }
+
+        .about-card-back1 {
+            position: absolute;
+            z-index: 1;
+            right: 208px;
+            top: 440px;
+        }
+
         .about-card {
+            z-index: 1;
             display: grid;
             grid-template-columns: repeat(2, 50%);
 

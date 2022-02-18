@@ -1,4 +1,5 @@
 import './Team.scss';
+import LeafImage from '../../../assets/images/leaf.png';
 
 const images = require.context('../../../assets/images/team', true);
 const imageCount = 6;
@@ -28,6 +29,12 @@ const Team = () => {
                 <div className="team-header-title">Behind the 
                     <span className="team-header-highlight"> sharks</span>
                 </div>
+            </div>
+            <div className="team-leaf-top">
+                <img src={LeafImage} />
+            </div>
+            <div className="team-leaf-bottom">
+                <img src={LeafImage} />
             </div>
             <div className="team-container">
                 {team.map( (ele, key) => 

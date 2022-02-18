@@ -1,5 +1,8 @@
 import './Partnership.scss';
 import ClueImage from '../../../assets/images/clue.png';
+import Back4Image from '../../../assets/images/back4.png';
+import CircleImage from '../../../assets/images/circle-back.png';
+import LeafImage from '../../../assets/images/leaf.png';
 
 const images = require.context('../../../assets/images/partnership', true);
 const imageCount = 12;
@@ -17,6 +20,18 @@ const Partnership = () => {
             <div className="partnership-header">
                 <div className="partnership-header-title">Partnership</div>
                 <div className="partnership-header-label">In partnership with the biggest names in the crypto space.</div>
+            </div>
+            <div className="partnership-back4">
+                <img src={Back4Image} />
+            </div>
+            <div className="partnership-back-circle">
+                <img src={CircleImage} />
+            </div>
+            <div className="partnership-leaf-top">
+                <img src={LeafImage} />
+            </div>
+            <div className="partnership-leaf-bottom">
+                <img src={LeafImage} />
             </div>
             <div className="partnership-container">
                 {partnershipImages.map( (ele, key) => 

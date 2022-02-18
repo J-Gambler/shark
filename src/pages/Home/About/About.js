@@ -3,6 +3,8 @@ import Shark1Image from '../../../assets/images/shark1.png';
 import Shark2Image from '../../../assets/images/shark2.png';
 import Clue1Image from '../../../assets/images/clue1.png';
 import NewImage from '../../../assets/images/new.png';
+import CircleBack from '../../../assets/images/circle-back.png';
+import Back1Image from '../../../assets/images/back1.png';
 
 const About = () => {
     return (
@@ -26,6 +28,12 @@ const About = () => {
                             </div>
                         </div>
                     </div>
+                </div>
+                <div className="about-card-circle-back">
+                    <img src={CircleBack} />
+                </div>
+                <div className="about-card-back1">
+                    <img src={Back1Image} />
                 </div>
                 <div className="about-card">
                     <div className="about-card-image">
