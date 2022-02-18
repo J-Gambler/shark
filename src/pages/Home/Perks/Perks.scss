@@ -119,3 +119,19 @@
         }
     }
 }
+
+@media (max-width: 576px) {
+    .perks {
+    
+        .perks-container {
+    
+            .perks-header {
+                .perks-header-light {
+                    display: none;
+                }
+    
+            }
+        }
+    }
+    
+}

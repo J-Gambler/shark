@@ -175,3 +175,16 @@
         }
     }
 }
+
+@media (max-width: 448px) {
+    
+    .partnership {
+        .partnership-container {
+
+            .partnership-items {
+                grid-template-columns: repeat(1, auto);
+            }
+    
+        }
+    }
+}

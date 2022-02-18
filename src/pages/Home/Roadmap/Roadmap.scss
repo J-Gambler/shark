@@ -61,6 +61,9 @@
             }
 
             .roadmap-header-image {
+                img {
+                    max-width: 100%;
+                }
                 padding-top: 16px;
                 text-align: center;
             }
@@ -110,6 +113,9 @@
 
                     .roadmap-item-image {
                         padding: 36px 0px;
+                        img {
+                            max-width: 100%;
+                        }
                     }
 
                     .roadmap-item-content {

@@ -220,3 +220,22 @@
     }
     
 }
+
+@media (max-width: 576px) {
+    .about {
+        .about-container {
+            .about-cards {
+                .about-card {
+    
+                    .about-card-content {
+
+                        .about-card-content-control {
+                            justify-content: center;
+                            flex-direction: column;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
