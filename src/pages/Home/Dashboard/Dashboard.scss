@@ -104,3 +104,40 @@
         }
     }
 }
+
+@media (max-width: 1440px) {
+    .dashboard {
+        .dashboard-container {
+    
+            .dashboard-content {
+                padding-left: 12.5vw;
+    
+                .dashboard-content-top-leaf {
+                    top: -10vw;
+                    right: 22vw;
+                }
+    
+                .dashboard-mint-control {
+                    .dashboard-mint-button {
+                        padding: 16px 4vw;
+                    }
+    
+                }
+    
+            }
+    
+            .dashboard-title-back-bottom {
+                top: -5vw;
+                right: -2vw;
+            }
+    
+            .dashboard-socials {
+                padding-left: 8vw;
+            }
+    
+            .dashboard-shark {
+                right: 7vw;
+            }
+        }
+    }
+}

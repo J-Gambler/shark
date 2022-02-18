@@ -114,3 +114,49 @@
         }
     }
 }
+
+@media (max-width: 1440px) {
+    .roadmap {
+        .roadmap-container {
+            .roadmap-back2 {
+                top: 35vw;
+            }
+    
+            .roadmap-back3 {
+                left: 14vw;
+                bottom: 3vw;
+            }
+    
+            .roadmap-leaf {
+                right: 14vw;
+            } 
+    
+            .roadmap-title-back {
+                left: -2.7vw;
+            }
+    
+            .roadmap-rows {
+                .roadmap-row {
+                    .roadmap-item {
+                        .roadmap-item-circle {
+                            left: -14vw;
+                        }
+    
+                        .roadmap-item-line {
+                            left: -12vw;
+                            top: 2vw;
+                        }
+    
+                        .roadmap-item-image {
+                            padding: 2.5vw 0px;
+                        }
+    
+                        .roadmap-item-content {
+                            padding-right: 20vw;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

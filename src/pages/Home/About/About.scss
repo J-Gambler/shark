@@ -84,6 +84,7 @@
                             font-size: 24px;
                             line-height: 28px;
                             color: #FFFFFF;
+                            cursor: pointer;
                         }
 
                     }
@@ -117,6 +118,52 @@
             .about-card:first-of-type {
                 .about-card-content {
                     justify-content: flex-start;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1440px) {
+    .about {
+        .about-container {
+    
+            .about-cards {
+                padding-left: 5vw;
+                padding-right: 5vw;
+                gap: 5vw;
+    
+                .about-card-circle-back {
+                    top: 25vw;
+                }
+    
+                .about-card-back1 {
+                    right: 13vw;
+                    top: 28vw;
+                }
+    
+                .about-card {
+                    .about-card-content {
+    
+                        .about-card-description {
+                            gap: 1.7vw;
+                        }
+    
+                        .about-card-content-control {
+                            gap: 1.75vw;
+                            
+                            .about-card-content-button {
+                                padding: 1.1vw 2vw;
+                            }
+    
+                        }
+                    }
+                }
+    
+                .about-card:first-of-type {
+                    .about-card-content {
+                        padding-right: 5vw;
+                    }
                 }
             }
         }

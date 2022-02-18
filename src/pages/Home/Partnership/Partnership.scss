@@ -96,3 +96,42 @@
         }
     }
 }
+
+@media (max-width: 1440px) {
+    .partnership {
+        .partnership-container {
+    
+            .partnership-title-back {
+                right: -14vw;
+            }
+    
+            .partnership-back4 {
+                top: 4.5vw;
+            }
+    
+            .partnership-back-circle {
+                left: -20vw;
+                bottom: -7vw;
+            }
+    
+            .partnership-leaf-top {
+                top: 30vw;
+                left: 10vw;
+            }
+    
+            .partnership-leaf-bottom {
+                bottom: 30vw;
+                right: 10vw;
+            }
+
+            .partnership-items {
+                padding: 0px 10vw;
+                row-gap: 4.5vw;
+            }
+    
+            .partnership-title-back-bottom {
+                left: -4vw;
+            }
+        }
+    }
+}

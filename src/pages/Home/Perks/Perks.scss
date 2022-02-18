@@ -83,3 +83,19 @@
         }
     }
 }
+
+@media (max-width: 1440px) {
+    .perks {
+        .perks-container {
+    
+            .perks-back1 {
+                left: 10vw;
+            }
+
+            .perks-cards {
+                padding: 0px 5vw;
+                gap: 5vw;
+            }
+        }
+    }
+}

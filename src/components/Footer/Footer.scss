@@ -39,3 +39,25 @@
         }
     }
 }
+
+@media (max-width: 1440px) {
+    .footer {
+    
+        .footer-container {
+            padding: 4vw 8vw;
+            gap: 5vw;
+    
+            .footer-content {
+                .footer-content-condition {
+                    gap: 2vw;
+                    font-size: 1.75vw;
+                    line-height: 2vw;
+                }
+
+                .footer-content-socials {
+                    gap: 3vw;
+                }
+            }
+        }
+    }
+}
