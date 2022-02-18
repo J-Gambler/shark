@@ -36,38 +36,40 @@ const roadmap = [
 const Roadmap = () => {
     return (
         <div className="roadmap">
-            <div className="roadmap-title-back">Nft</div>
-            <div className="roadmap-header">
-                <div className="roadmap-title">Roadmap</div>
-                <div className="roadmap-header-image">
-                    <img src={RoadmapImage} />
-                </div>
-            </div>
-            <div className="roadmap-back2">
-                <img src={Back2Image} />
-            </div>
-            <div className="roadmap-back3">
-                <img src={Back3Image} />
-            </div>
-            <div className="roadmap-leaf">
-                <img src={LeafImage} />
-            </div>
             <div className="roadmap-container">
-                {roadmap.map( (ele, key) => 
-                <div className="roadmap-row" key={key}>
-                    <div className="roadmap-item">
-                        <div className="roadmap-item-circle">
-                            <img src={CircleImage} />
-                        </div>
-                        <div className="roadmap-item-line"></div>
-                        <div className="roadmap-item-title">{ele.title}</div>
-                        <div className="roadmap-item-image">
-                            <img src={ClueImage} />
-                        </div>
-                        <div className="roadmap-item-content">{ele.content}</div>
+                <div className="roadmap-title-back">Nft</div>
+                <div className="roadmap-header">
+                    <div className="roadmap-title">Roadmap</div>
+                    <div className="roadmap-header-image">
+                        <img src={RoadmapImage} />
                     </div>
                 </div>
-                )}
+                <div className="roadmap-back2">
+                    <img src={Back2Image} />
+                </div>
+                <div className="roadmap-back3">
+                    <img src={Back3Image} />
+                </div>
+                <div className="roadmap-leaf">
+                    <img src={LeafImage} />
+                </div>
+                <div className="roadmap-rows">
+                    {roadmap.map( (ele, key) => 
+                    <div className="roadmap-row" key={key}>
+                        <div className="roadmap-item">
+                            <div className="roadmap-item-circle">
+                                <img src={CircleImage} />
+                            </div>
+                            <div className="roadmap-item-line"></div>
+                            <div className="roadmap-item-title">{ele.title}</div>
+                            <div className="roadmap-item-image">
+                                <img src={ClueImage} />
+                            </div>
+                            <div className="roadmap-item-content">{ele.content}</div>
+                        </div>
+                    </div>
+                    )}
+                </div>
             </div>
         </div>
     );

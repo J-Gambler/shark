@@ -1,108 +1,114 @@
 .roadmap {
     color: #FFFFFF;
-    padding-top: 80px;
-    position: relative;
     overflow: hidden;
 
-    .roadmap-back2 {
-        position: absolute;
-        // left: -140px;
-        top: 500px;
-    }
-
-    .roadmap-back3 {
-        position: absolute;
-        left: 192px;
-        bottom: 42px;
-    }
-
-    .roadmap-leaf {
-        position: absolute;
-        top: calc(50%);
-        right: 200px;
-    } 
-
-    .roadmap-title-back {
-        font-weight: bold;
-        font-size: 144px;
-        line-height: 166px;
-        color: transparent;
-        -webkit-text-stroke: 1px white;
-        position: relative;
-        left: -40px;
-    }
-
-    .roadmap-header {
-        .roadmap-title {
-            font-weight: bold;
-            font-size: 48px;
-            line-height: 55px;
-            text-align: center;
-            
-            color: #38B6FF;
-        }
-
-        .roadmap-header-image {
-            padding-top: 16px;
-            text-align: center;
-        }
-    }
-
     .roadmap-container {
-        padding-top: 132px;
+        max-width: 1440px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 80px;
+        position: relative;
 
-        .roadmap-row {
-            justify-content: end;
-            display: flex;
-            flex-wrap: wrap;
+        .roadmap-back2 {
+            position: absolute;
+            // left: -140px;
+            top: 500px;
+        }
 
-            .roadmap-item {
-                padding-bottom: 96px;
-                position: relative;
-                width: 50%;
-                display: inline-block;
-                text-align: left;
+        .roadmap-back3 {
+            position: absolute;
+            left: 192px;
+            bottom: 42px;
+        }
 
-                .roadmap-item-circle {
-                    position: absolute;
-                    left: -200px;
-                }
+        .roadmap-leaf {
+            position: absolute;
+            top: calc(50%);
+            right: 200px;
+        } 
 
-                .roadmap-item-line {
-                    position: absolute;
-                    left: -174px;
-                    z-index: -1;
-                    top: 30px;
-                    width: 7px;
-                    height: 100%;
-                    background-color: #D9D9D9;
-                }
+        .roadmap-title-back {
+            font-weight: bold;
+            font-size: 144px;
+            line-height: 166px;
+            color: transparent;
+            -webkit-text-stroke: 1px white;
+            position: relative;
+            left: -40px;
+        }
 
-                .roadmap-item-title {
-                    font-weight: bold;
-                    font-size: 24px;
-                    line-height: 28px;
-                }
+        .roadmap-header {
+            .roadmap-title {
+                font-weight: bold;
+                font-size: 48px;
+                line-height: 55px;
+                text-align: center;
+                
+                color: #38B6FF;
+            }
 
-                .roadmap-item-image {
-                    padding: 36px 0px;
-                }
-
-                .roadmap-item-content {
-                    font-family: 'Glacial Indifference';
-                    font-size: 24px;
-                    line-height: 29px;
-                    color: #FFFFFF;
-                    padding-right: 348px;
-                }
+            .roadmap-header-image {
+                padding-top: 16px;
+                text-align: center;
             }
         }
 
-        .roadmap-row:last-of-type {
-            .roadmap-item {
-                .roadmap-item-line {
-                    width: 0px;
+        .roadmap-rows {
+            padding-top: 132px;
 
+            .roadmap-row {
+                justify-content: end;
+                display: flex;
+                flex-wrap: wrap;
+
+                .roadmap-item {
+                    padding-bottom: 96px;
+                    position: relative;
+                    width: 50%;
+                    display: inline-block;
+                    text-align: left;
+
+                    .roadmap-item-circle {
+                        position: absolute;
+                        left: -200px;
+                    }
+
+                    .roadmap-item-line {
+                        position: absolute;
+                        left: -174px;
+                        z-index: -1;
+                        top: 30px;
+                        width: 7px;
+                        height: 100%;
+                        background-color: #D9D9D9;
+                    }
+
+                    .roadmap-item-title {
+                        font-weight: bold;
+                        font-size: 24px;
+                        line-height: 28px;
+                    }
+
+                    .roadmap-item-image {
+                        padding: 36px 0px;
+                    }
+
+                    .roadmap-item-content {
+                        font-family: 'Glacial Indifference';
+                        font-size: 24px;
+                        line-height: 29px;
+                        color: #FFFFFF;
+                        padding-right: 348px;
+                    }
+                }
+            }
+
+            .roadmap-row:last-of-type {
+                .roadmap-item {
+                    .roadmap-item-line {
+                        width: 0px;
+
+                    }
                 }
             }
         }

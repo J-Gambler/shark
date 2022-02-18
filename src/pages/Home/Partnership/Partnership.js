@@ -16,34 +16,36 @@ for (let i = 1; i <= imageCount; i ++) {
 const Partnership = () => {
     return (
         <div className="partnership">
-            <div className="partnership-title-back">Community</div>
-            <div className="partnership-header">
-                <div className="partnership-header-title">Partnership</div>
-                <div className="partnership-header-label">In partnership with the biggest names in the crypto space.</div>
-            </div>
-            <div className="partnership-back4">
-                <img src={Back4Image} />
-            </div>
-            <div className="partnership-back-circle">
-                <img src={CircleImage} />
-            </div>
-            <div className="partnership-leaf-top">
-                <img src={LeafImage} />
-            </div>
-            <div className="partnership-leaf-bottom">
-                <img src={LeafImage} />
-            </div>
             <div className="partnership-container">
-                {partnershipImages.map( (ele, key) => 
-                <div className="partnership-item" key={key}>
-                    <img src={ele} />
+                <div className="partnership-title-back">Community</div>
+                <div className="partnership-header">
+                    <div className="partnership-header-title">Partnership</div>
+                    <div className="partnership-header-label">In partnership with the biggest names in the crypto space.</div>
                 </div>
-                )}
+                <div className="partnership-back4">
+                    <img src={Back4Image} />
+                </div>
+                <div className="partnership-back-circle">
+                    <img src={CircleImage} />
+                </div>
+                <div className="partnership-leaf-top">
+                    <img src={LeafImage} />
+                </div>
+                <div className="partnership-leaf-bottom">
+                    <img src={LeafImage} />
+                </div>
+                <div className="partnership-items">
+                    {partnershipImages.map( (ele, key) => 
+                    <div className="partnership-item" key={key}>
+                        <img src={ele} />
+                    </div>
+                    )}
+                </div>
+                <div className="partnership-image">
+                    <img src={ClueImage} />
+                </div>
+                <div className="partnership-title-back-bottom">Crypto</div>
             </div>
-            <div className="partnership-image">
-                <img src={ClueImage} />
-            </div>
-            <div className="partnership-title-back-bottom">Crypto</div>
         </div>
     );
 }

@@ -27,36 +27,38 @@ const perks = [
 const Perks = () => {
     return (
         <div className="perks">
-            <div className="perks-title-back">Collection</div>
-            <div className="perks-header">
-                <div className="perks-header-light">
-                    <img src={LightImage} />
-                </div>
-                <div className="perks-header-title">Perks</div>
-                <div className="perks-header-light">
-                    <img src={LightImage} />
-                </div>
-            </div>
-            <div className="perks-back1">
-                <img src={Back1Image} />
-            </div>
             <div className="perks-container">
-                {perks.map( (ele, key) =>
-                <div className="perks-card" key={key}>
-                    <div className="perks-card-image">
-                        <img src={ele.image} />
+                <div className="perks-title-back">Collection</div>
+                <div className="perks-header">
+                    <div className="perks-header-light">
+                        <img src={LightImage} />
                     </div>
-                    <div className="perks-card-title">
-                        {ele.title}
-                    </div>
-                    <div className="perks-card-clue">
-                        <img src={ClueImage} />
-                    </div>
-                    <div className="perks-card-content">
-                        {ele.content}
+                    <div className="perks-header-title">Perks</div>
+                    <div className="perks-header-light">
+                        <img src={LightImage} />
                     </div>
                 </div>
-                )}
+                <div className="perks-back1">
+                    <img src={Back1Image} />
+                </div>
+                <div className="perks-cards">
+                    {perks.map( (ele, key) =>
+                    <div className="perks-card" key={key}>
+                        <div className="perks-card-image">
+                            <img src={ele.image} />
+                        </div>
+                        <div className="perks-card-title">
+                            {ele.title}
+                        </div>
+                        <div className="perks-card-clue">
+                            <img src={ClueImage} />
+                        </div>
+                        <div className="perks-card-content">
+                            {ele.content}
+                        </div>
+                    </div>
+                    )}
+                </div>
             </div>
         </div>
     );
