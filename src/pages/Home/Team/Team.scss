@@ -100,3 +100,18 @@
         }
     }
 }
+
+@media (max-width: 991px) {
+    
+    .team {
+    
+        .team-container {
+    
+            .team-cards {
+                display: flex;
+                flex-direction: column;
+                gap: 100px;
+            }
+        }
+    }
+}

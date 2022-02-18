@@ -74,7 +74,7 @@
             row-gap: 64px;
 
             .partnership-item {
-
+                text-align: center;
             }
         }
 
@@ -132,6 +132,18 @@
             .partnership-title-back-bottom {
                 left: -4vw;
             }
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    .partnership {
+        .partnership-container {
+
+            .partnership-items {
+                grid-template-columns: repeat(2, auto);
+            }
+    
         }
     }
 }

@@ -61,3 +61,42 @@
         }
     }
 }
+
+@media (max-width: 991px) {
+    .footer {
+    
+        .footer-container {    
+            .footer-content {
+                .footer-content-condition {
+                    font-size: 24px;
+                    line-height: 28px;
+                    gap: 24px;
+                    flex-direction: column;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    
+    .footer {
+    
+        .footer-container {    
+            flex-direction: column;
+
+            .footer-content {
+                .footer-content-condition {
+                    font-size: 24px;
+                    gap: 24px;
+                    flex-direction: column;
+                }
+
+                .footer-content-socials {
+                    gap: 24px;
+                }
+            }
+
+        }
+    }
+}

@@ -99,3 +99,16 @@
         }
     }
 }
+
+@media (max-width: 991px) {
+    
+    .perks {
+        .perks-container {
+            .perks-cards {
+                display: flex;
+                flex-direction: column;
+                gap: 50px;
+            }
+        }
+    }
+}

@@ -160,3 +160,35 @@
         }
     }
 }
+
+@media (max-width: 991px) {
+    .roadmap {
+        .roadmap-container {
+            .roadmap-rows {
+                .roadmap-row {
+                    padding-left: 5vw;
+                    padding-right: 5vw;
+                    justify-content: start;
+    
+                    .roadmap-item {
+                        padding-left: 20vw;
+                        width: 100%;
+
+                        .roadmap-item-circle {
+                            left: calc(-26px + 5vw);
+                        }
+    
+                        .roadmap-item-content {
+                            padding-right: 0;
+                        }
+
+                        .roadmap-item-line {
+                            left: 5vw;
+                        }
+    
+                    }
+                }
+            }
+        }
+    }
+}

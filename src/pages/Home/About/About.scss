@@ -112,6 +112,9 @@
 
                 .about-card-image {
                     text-align: center;
+                    img {
+                        max-width: 100%;
+                    }
                 }
             }
 
@@ -168,4 +171,37 @@
             }
         }
     }
+}
+
+@media (max-width: 991px) {
+    .about {
+        .about-container {
+            .about-cards {
+                gap: 10vw;
+                .about-card {
+                    display: flex;
+                    flex-direction: column-reverse;
+                    gap: 10vw;
+    
+                    .about-card-content {
+                        gap: 10vw;
+
+                        .about-card-content-control {
+                            justify-content: center;
+                        }
+                    }
+    
+                    .about-card-image {
+                        text-align: center;
+                    }
+    
+                }
+    
+                .about-card:first-of-type {
+                    flex-direction: column;
+                }
+            }
+        }
+    }
+    
 }
