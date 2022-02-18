@@ -23,7 +23,7 @@ for (let i = 1; i <= imageCount; i ++) {
 
 const Team = () => {
     return (
-        <div className="team">
+        <div className="team" id="team">
             <div className="team-container">
                 <div className="team-header">
                     <div className="team-header-label">Our team</div>

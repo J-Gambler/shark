@@ -35,7 +35,7 @@ const roadmap = [
 
 const Roadmap = () => {
     return (
-        <div className="roadmap">
+        <div className="roadmap" id="roadmap">
             <div className="roadmap-container">
                 <div className="roadmap-title-back">Nft</div>
                 <div className="roadmap-header">

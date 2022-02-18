@@ -1,6 +1,5 @@
 .roadmap {
     color: #FFFFFF;
-    overflow: hidden;
 
     .roadmap-container {
         max-width: 1440px;
@@ -11,20 +10,32 @@
 
         .roadmap-back2 {
             position: absolute;
+            overflow: hidden;
             // left: -140px;
             top: 500px;
+            img {
+                max-width: 100%;
+            }
         }
 
         .roadmap-back3 {
             position: absolute;
+            overflow: hidden;
             left: 192px;
             bottom: 42px;
+            img {
+                max-width: 100%;
+            }
         }
 
         .roadmap-leaf {
             position: absolute;
+            overflow: hidden;
             top: calc(50%);
             right: 200px;
+            img {
+                max-width: 100%;
+            }
         } 
 
         .roadmap-title-back {
@@ -35,6 +46,7 @@
             -webkit-text-stroke: 1px white;
             position: relative;
             left: -40px;
+            overflow: hidden;
         }
 
         .roadmap-header {
@@ -43,7 +55,8 @@
                 font-size: 48px;
                 line-height: 55px;
                 text-align: center;
-                
+                text-overflow: ellipsis;
+                overflow: hidden;
                 color: #38B6FF;
             }
 
@@ -70,6 +83,7 @@
 
                     .roadmap-item-circle {
                         position: absolute;
+                        overflow: hidden;
                         width: 30px;
                         height: 30px;
                         background-color: #bbb;
@@ -79,6 +93,7 @@
 
                     .roadmap-item-line {
                         position: absolute;
+                        overflow: hidden;
                         left: -174px;
                         z-index: -1;
                         top: 30px;

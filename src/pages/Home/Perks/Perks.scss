@@ -1,5 +1,4 @@
 .perks {
-    overflow: hidden;
     
     .perks-container {
         max-width: 1440px;
@@ -8,6 +7,7 @@
         position: relative;
 
         .perks-title-back {
+            .content {
             font-weight: bold;
             font-size: 144px;
             line-height: 166px;
@@ -16,6 +16,8 @@
             text-align: right;
             position: relative;
             right: -100px;
+            }
+            overflow: hidden;
         }
 
         .perks-back1 {
@@ -23,6 +25,11 @@
             bottom: -24px;
             left: 150px;
             z-index: 1;
+            overflow: hidden;
+            
+            img {
+                max-width: 100%;
+            }
         }
 
         .perks-header {

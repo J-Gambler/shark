@@ -15,9 +15,9 @@ for (let i = 1; i <= imageCount; i ++) {
 
 const Partnership = () => {
     return (
-        <div className="partnership">
+        <div className="partnership" id="partnership">
             <div className="partnership-container">
-                <div className="partnership-title-back">Community</div>
+                <div className="partnership-title-back"><div className="content">Community</div></div>
                 <div className="partnership-header">
                     <div className="partnership-header-title">Partnership</div>
                     <div className="partnership-header-label">In partnership with the biggest names in the crypto space.</div>

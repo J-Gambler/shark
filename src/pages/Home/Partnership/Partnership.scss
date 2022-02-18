@@ -1,5 +1,4 @@
 .partnership {
-    overflow: hidden;
 
     .partnership-container {
         max-width: 1440px;
@@ -9,6 +8,8 @@
         position: relative;
 
         .partnership-title-back {
+            overflow: hidden;
+            .content {
             font-weight: bold;
             font-size: 144px;
             line-height: 166px;
@@ -19,30 +20,51 @@
             -webkit-text-stroke: 1px white;
             position: relative;
             right: -200px;
+            }
         }
 
         .partnership-back4 {
             position: absolute;
+            overflow: hidden;
             top: 64px;
             right: 0;
+            
+            img {
+                max-width: 100%;
+            }
         }
 
         .partnership-back-circle {
             position: absolute;
+            overflow: hidden;
             left: -300px;
             bottom: -100px;
+            
+            img {
+                max-width: 100%;
+            }
         }
 
         .partnership-leaf-top {
             position: absolute;
+            overflow: hidden;
             top: 448px;
             left: 144px;
+            
+            img {
+                max-width: 100%;
+            }
         }
 
         .partnership-leaf-bottom {
             position: absolute;
+            overflow: hidden;
             bottom: 448px;
             right: 144px;
+            
+            img {
+                max-width: 100%;
+            }
         }
 
         .partnership-header {
@@ -54,6 +76,8 @@
                 font-weight: bold;
                 font-size: 48px;
                 line-height: 55px;
+                overflow: hidden;
+                text-overflow: ellipsis;
                 
                 color: #38B6FF;
             }
@@ -96,6 +120,7 @@
             padding-bottom: 96px;
             position: relative;
             left: -60px;
+            overflow: hidden;
         }
     }
 }

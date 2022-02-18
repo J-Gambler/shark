@@ -6,11 +6,13 @@ import TwitterImage from '../../../assets/images/twitter.png';
 import FacebookImage from '../../../assets/images/facebook.png';
 import Shark3Image from '../../../assets/images/shark3.png';
 import LeafImage from '../../../assets/images/leaf.png';
+import Header from '../../../components/Header/Header';
 
 const Dashboard = () => {
     return (
         <div className="dashboard">
             <div className="dashboard-container">
+                <Header />
                 <div className="dashboard-title-back">SURF</div>
                 <div className="dashboard-content">
                     <div className="dashboard-content-top-leaf">
@@ -29,19 +31,27 @@ const Dashboard = () => {
                         <div className="dashboard-mint-caption">9 Days 17Hrs 55Min</div>
                     </div>
                 </div>
-                <div className="dashboard-title-back-bottom">Shark</div>
+                <div className="dashboard-title-back-bottom"><div className="content">Shark</div></div>
                 <div className="dashboard-socials">
                     <div className="dashboard-socials-link">
-                        <img src={DiscordImage} />
+                        <a href="https://discord.gg/surfsharksociety">
+                            <img src={DiscordImage} />
+                        </a>
                     </div>
                     <div className="dashboard-socials-link">
-                        <img src={InstagramImage} />
+                        <a href="https://www.instagram.com/surfsharksociety">
+                            <img src={InstagramImage} />
+                        </a>
                     </div>
                     <div className="dashboard-socials-link">
-                        <img src={TwitterImage} />
+                        <a href="https://twitter.com/surfsharksoc">
+                            <img src={TwitterImage} />
+                        </a>
                     </div>
                     <div className="dashboard-socials-link">
-                        <img src={FacebookImage} />
+                        <a href="https://www.facebook.com/SURFSHARKSOCIETY">
+                            <img src={FacebookImage} />
+                        </a>
                     </div>
                     <div className="dashboard-socials-leaf">
                         <img src={LeafImage} />

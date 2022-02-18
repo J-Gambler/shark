@@ -26,9 +26,9 @@ const perks = [
 
 const Perks = () => {
     return (
-        <div className="perks">
+        <div className="perks" id="perks">
             <div className="perks-container">
-                <div className="perks-title-back">Collection</div>
+                <div className="perks-title-back"><div className="content">Collection</div></div>
                 <div className="perks-header">
                     <div className="perks-header-light">
                         <img src={LightImage} />

@@ -1,6 +1,5 @@
 .team {
-    text-transform: uppercase;
-    overflow: hidden;
+    text-transform: uppercase;  
 
     .team-container {
         max-width: 1440px;
@@ -13,14 +12,22 @@
 
         .team-leaf-bottom {
             position: absolute;
+            overflow: hidden;
             bottom: 448px;
             right: 144px;
+            img {
+                max-width: 100%;
+            }
         }
 
         .team-leaf-top {
             position: absolute;
+            overflow: hidden;
             top: 448px;
             left: 144px;
+            img {
+                max-width: 100%;
+            }
         }
 
         .team-header {
@@ -40,6 +47,8 @@
             }
 
             .team-header-title {
+                overflow: hidden;
+                text-overflow: ellipsis;
                 font-weight: bold;
                 font-size: 72px;
                 line-height: 83px;

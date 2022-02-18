@@ -19,16 +19,24 @@ const Footer = () => {
                     </div>
                     <div className="footer-content-socials">
                         <div className="footer-content-socials-link">
-                            <img src={DiscordImage} />
+                            <a href="https://discord.gg/surfsharksociety">
+                                <img src={DiscordImage} />
+                            </a>
                         </div>
                         <div className="footer-content-socials-link">
-                            <img src={InstagramImage} />
+                            <a href="https://www.instagram.com/surfsharksociety">
+                                <img src={InstagramImage} />
+                            </a>
                         </div>
                         <div className="footer-content-socials-link">
-                            <img src={TwitterImage} />
+                            <a href="https://twitter.com/surfsharksoc">
+                                <img src={TwitterImage} />
+                            </a>
                         </div>
                         <div className="footer-content-socials-link">
-                            <img src={FacebookImage} />
+                            <a href="https://www.facebook.com/SURFSHARKSOCIETY">
+                                <img src={FacebookImage} />
+                            </a>
                         </div>
                     </div>
                 </div>

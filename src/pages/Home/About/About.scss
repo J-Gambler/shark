@@ -1,5 +1,4 @@
 .about {
-    overflow: hidden;
     .about-container {
         max-width: 1440px;
         margin-left: auto;
@@ -14,8 +13,8 @@
             color: transparent;
             -webkit-text-stroke: 1px white;
             padding-bottom: 28px;
-            position: relative;
             left: -60px;
+            overflow: hidden;
         }
 
         .about-cards {
@@ -29,9 +28,14 @@
 
             .about-card-circle-back {
                 position: absolute;
+                overflow: hidden;
                 z-index: 1;
                 left: 0;
                 top: 400px;
+                
+                img {
+                    max-width: 100%;
+                }
             }
 
             .about-card-back1 {
@@ -39,6 +43,11 @@
                 z-index: 1;
                 right: 208px;
                 top: 440px;
+                overflow: hidden;
+                
+                img {
+                    max-width: 100%;
+                }
             }
 
             .about-card {
@@ -91,11 +100,14 @@
                 }
 
                 .about-card-image {
+                    img {
+                        max-width: 100%;
+                    }
                     .about-card-image-shark {
                         display: inline-block;
                         position: relative;
                         img {
-                            border-radius: 20px;    
+                            border-radius: 20px;  
                         }
                         
                         .about-card-new-image {
