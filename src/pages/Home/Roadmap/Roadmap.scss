@@ -1,0 +1,34 @@
+.roadmap {
+    color: #FFFFFF;
+    padding-top: 40px;
+
+    .roadmap-title-back {
+        font-weight: bold;
+        font-size: 144px;
+        line-height: 166px;
+    }
+
+    .roadmap-title {
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 55px;
+        text-align: center;
+        
+        color: #38B6FF;
+    }
+
+    .roadmap-container {
+        .roadmap-item {
+            .roadmap-item-title {
+                font-weight: bold;
+                font-size: 24px;
+                line-height: 28px;
+            }
+
+            .roadmap-item-content {
+                font-size: 24px;
+                line-height: 29px;
+            }
+        }
+    }
+}

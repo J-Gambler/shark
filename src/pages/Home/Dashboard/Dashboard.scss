@@ -1,0 +1,28 @@
+.dashboard {
+    .dashboard-title-back {
+
+    }
+
+    .dashboard-content {
+        text-transform: uppercase;
+
+        .dashboard-mint-title {
+            color: #D9D9D9;
+
+            .dashboard-mint-hightlight {
+                color: #38B6FF;
+            }
+        }
+
+        .dashboard-mint-button {
+            border-radius: 20px;
+            background-color: #38B6FF;
+            color: #D9D9D9;
+            text-align: center;
+        }
+
+        .dashboard-mint-caption {
+            
+        }
+    }
+}

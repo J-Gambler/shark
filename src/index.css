@@ -1,6 +1,13 @@
+@font-face {
+  font-family: 'Horizon';
+  src: url('./assets/fonts/Horizon.otf') format("truetype");
+}
+
 body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: 'Horizon', sans-serif;
+  /* font-family: ; */
   background: -webkit-linear-gradient(left, rgb(3, 3, 19) 0%, rgb(19, 18, 65) 100%);
 }
