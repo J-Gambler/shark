@@ -2,13 +2,16 @@ import './Header.scss'
 import LogoImage from '../../assets/images/logo.png';
 import TogglerImage from '../../assets/images/toggler.png';
 import { Link } from 'react-scroll';
+// import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
         <div className="navbar">
             <div className="navbar-container">
                 <div className="logo">
-                    <img src={LogoImage}/>
+                    <Link to="/" >
+                        <img src={LogoImage}/>
+                    </Link>
                 </div>
                 <div className="links">
                     <div className="nav-link">
